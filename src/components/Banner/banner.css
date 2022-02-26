@@ -1,0 +1,21 @@
+.banner-wrapper{
+    background-color: #6FF6A5;
+    border-radius: 0 0 10px 10px;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+    color: #141414;
+}
+
+.btn-row{
+    display: flex;
+    gap: 50px;
+}

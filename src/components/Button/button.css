@@ -1,0 +1,15 @@
+.button{
+    border-radius: 100px;
+    padding: 6px 12px;
+    color: #141414;
+    border: solid 2px #141414;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+    background: none;
+}
+
+.filled{
+    background-color: #141414;
+    color: #6FF6A5;
+}

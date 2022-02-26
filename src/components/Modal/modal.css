@@ -1,0 +1,64 @@
+.modal-wrapper{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+.overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.modal-content{
+    position: relative;
+    width: min-content;
+    background-color: #1C1C1C;
+    margin: auto;
+    margin-top: 50px;
+    min-height: 90vh;
+    min-width: 60%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.modal-info-container{
+    padding: 0 20px;
+}
+
+.modal-close-button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255,255,255,0.3);
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.author-card{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: black;
+    border: solid 2px #6FF5A4;
+}
